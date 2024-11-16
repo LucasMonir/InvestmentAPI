@@ -1,0 +1,8 @@
+C:\Users\lucas\OneDrive\Área de Trabalho\Code\Azure\ApiParaMSAL\InvestmentAPI\obj\Debug\net8.0\InvestmentAPI.csproj.AssemblyReference.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\Code\Azure\ApiParaMSAL\InvestmentAPI\obj\Debug\net8.0\InvestmentAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\OneDrive\Área de Trabalho\Code\Azure\ApiParaMSAL\InvestmentAPI\obj\Debug\net8.0\InvestmentAPI.AssemblyInfoInputs.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\Code\Azure\ApiParaMSAL\InvestmentAPI\obj\Debug\net8.0\InvestmentAPI.AssemblyInfo.cs
+C:\Users\lucas\OneDrive\Área de Trabalho\Code\Azure\ApiParaMSAL\InvestmentAPI\obj\Debug\net8.0\InvestmentAPI.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\Code\Azure\ApiParaMSAL\InvestmentAPI\obj\Debug\net8.0\InvestmentAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\lucas\OneDrive\Área de Trabalho\Code\Azure\ApiParaMSAL\InvestmentAPI\obj\Debug\net8.0\InvestmentAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\Code\Azure\ApiParaMSAL\InvestmentAPI\obj\Debug\net8.0\InvestmentAPI.sourcelink.json
