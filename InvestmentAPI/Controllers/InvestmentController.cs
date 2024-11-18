@@ -1,4 +1,5 @@
 ﻿using InvestmentAPI.Services.Implementation;
+using InvestmentAPI.Services.Interface;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ApiParaMSAL.Controllers
@@ -7,19 +8,18 @@ namespace ApiParaMSAL.Controllers
 	[Route("[controller]")]
 	public class InvestmentController : ControllerBase
 	{
+		private readonly IEconomicDataService _economicDataService;
 
-		[HttpGet(Name = "GetSelic")]
-		public IActionResult Get()
+		public InvestmentController(IEconomicDataService economicDataService)
 		{
-			return Ok(GetSelicFromBacen());
+			_economicDataService = economicDataService;
 		}
 
-		private static string GetSelicFromBacen()
+		[HttpGet(Name = "GetInterest")]
+		public async Task<IActionResult> GetInterestRate()
 		{
-			var service = new EconomicDataService();
-			var result = service.GetInterest();
-
-			return result.Result;
+			var interest = await _economicDataService.GetInterest();
+			return Ok(new { interest });
 		}
 	}
 }

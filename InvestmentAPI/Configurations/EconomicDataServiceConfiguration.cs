@@ -6,10 +6,9 @@
 		public string Endpoint { get; set; } = string.Empty;
 		public string QueryParameter { get; set; } = string.Empty;
 
-		public string BuildUrl(string format, string upperBound, string lowerBound)
+		public string BuildUrl(string upperBound, string lowerBound)
 		{
 			return GetFullUrl()
-				.Replace("{format}", format)
 				.Replace("{upperBound}", upperBound)
 				.Replace("{lowerBound}", lowerBound);
 		}

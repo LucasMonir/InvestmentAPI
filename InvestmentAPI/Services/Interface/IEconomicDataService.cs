@@ -2,5 +2,7 @@
 {
     public interface IEconomicDataService
     {
-    }
+		public Task<string> GetInterest();
+
+	}
 }
