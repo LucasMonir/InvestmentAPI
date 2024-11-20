@@ -6,14 +6,9 @@ namespace ApiParaMSAL.Controllers
 {
 	[ApiController]
 	[Route("[controller]")]
-	public class InvestmentController : ControllerBase
+	public class InvestmentController(IEconomicDataService economicDataService) : ControllerBase
 	{
-		private readonly IEconomicDataService _economicDataService;
-
-		public InvestmentController(IEconomicDataService economicDataService)
-		{
-			_economicDataService = economicDataService;
-		}
+		private readonly IEconomicDataService _economicDataService = economicDataService;
 
 		[HttpGet(Name = "GetInterest")]
 		public async Task<IActionResult> GetInterestRate()

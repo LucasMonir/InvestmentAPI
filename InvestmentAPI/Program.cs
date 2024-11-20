@@ -12,8 +12,8 @@ namespace ApiParaMSAL
 			var builder = WebApplication.CreateBuilder(args);
 
 			// Add services to the container.
-
 			builder.Services.AddControllers();
+
 			// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 			builder.Services.AddEndpointsApiExplorer();
 			builder.Services.AddSwaggerGen();
@@ -23,6 +23,10 @@ namespace ApiParaMSAL
 				builder.Configuration.GetSection("EconomicDataConfiguration"));
 			builder.Services.AddHttpClient<BrazilEconomicDataService>();
 			builder.Services.AddScoped<IEconomicDataService, BrazilEconomicDataService>();
+
+			// Tax Service Configuration 
+			builder.Services.Configure<BrazilTaxServiceConfiguration>(
+				builder.Configuration.GetSection("BrazilianRegressiveTaxing"));
 
 			var app = builder.Build();
 

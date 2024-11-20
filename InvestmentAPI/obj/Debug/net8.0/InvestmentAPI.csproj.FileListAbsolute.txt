@@ -31,3 +31,40 @@ C:\Users\lucas\OneDrive\Área de Trabalho\Code\Azure\ApiParaMSAL\InvestmentAPI\o
 C:\Users\lucas\OneDrive\Área de Trabalho\Code\Azure\ApiParaMSAL\InvestmentAPI\obj\Debug\net8.0\InvestmentAPI.pdb
 C:\Users\lucas\OneDrive\Área de Trabalho\Code\Azure\ApiParaMSAL\InvestmentAPI\obj\Debug\net8.0\InvestmentAPI.genruntimeconfig.cache
 C:\Users\lucas\OneDrive\Área de Trabalho\Code\Azure\ApiParaMSAL\InvestmentAPI\obj\Debug\net8.0\ref\InvestmentAPI.dll
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\bin\Debug\net8.0\appsettings.json
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\bin\Debug\net8.0\InvestmentAPI.staticwebassets.endpoints.json
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\bin\Debug\net8.0\InvestmentAPI.exe
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\bin\Debug\net8.0\InvestmentAPI.deps.json
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\bin\Debug\net8.0\InvestmentAPI.runtimeconfig.json
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\bin\Debug\net8.0\InvestmentAPI.dll
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\bin\Debug\net8.0\InvestmentAPI.pdb
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\obj\Debug\net8.0\InvestmentAPI.csproj.AssemblyReference.cache
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\obj\Debug\net8.0\InvestmentAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\obj\Debug\net8.0\InvestmentAPI.AssemblyInfoInputs.cache
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\obj\Debug\net8.0\InvestmentAPI.AssemblyInfo.cs
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\obj\Debug\net8.0\InvestmentAPI.csproj.CoreCompileInputs.cache
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\obj\Debug\net8.0\InvestmentAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\obj\Debug\net8.0\InvestmentAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\obj\Debug\net8.0\InvestmentAPI.sourcelink.json
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\obj\Debug\net8.0\scopedcss\bundle\InvestmentAPI.styles.css
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\obj\Debug\net8.0\staticwebassets\msbuild.InvestmentAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\obj\Debug\net8.0\staticwebassets\msbuild.InvestmentAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.InvestmentAPI.props
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.InvestmentAPI.props
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.InvestmentAPI.props
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\obj\Debug\net8.0\Investme.7810A601.Up2Date
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\obj\Debug\net8.0\InvestmentAPI.dll
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\obj\Debug\net8.0\refint\InvestmentAPI.dll
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\obj\Debug\net8.0\InvestmentAPI.pdb
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\obj\Debug\net8.0\InvestmentAPI.genruntimeconfig.cache
+C:\Users\Monir\source\repos\InvestmentAPI\InvestmentAPI\obj\Debug\net8.0\ref\InvestmentAPI.dll
