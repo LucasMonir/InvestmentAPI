@@ -2,6 +2,6 @@
 {
 	public interface ITaxService
 	{
-		public float CalculateTax();
+		public float CalculateTax(int days);
 	}
 }

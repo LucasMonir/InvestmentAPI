@@ -16,6 +16,27 @@
             "description": "Success"
           }
         }
+      },
+      "post": {
+        "tags": [
+          "Investment"
+        ],
+        "operationId": "GetTaxByDuration",
+        "parameters": [
+          {
+            "name": "days",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
       }
     },
     "/WeatherForecast": {

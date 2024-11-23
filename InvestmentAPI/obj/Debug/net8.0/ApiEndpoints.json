@@ -11,6 +11,23 @@
     "EndpointName": "GetInterest"
   },
   {
+    "ContainingType": "ApiParaMSAL.Controllers.InvestmentController",
+    "Method": "GetTaxByDuration",
+    "RelativePath": "Investment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "days",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetTaxByDuration"
+  },
+  {
     "ContainingType": "ApiParaMSAL.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

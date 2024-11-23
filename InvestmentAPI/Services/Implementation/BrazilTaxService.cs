@@ -8,11 +8,16 @@ namespace InvestmentAPI.Services.Implementation
 	{
 		private readonly BrazilTaxServiceConfiguration _config = config.Value;
 
-		public float CalculateTax()
+		public float CalculateTax(int days)
 		{
-			// Add tax logic based on investment time
+			var rate = _config.BrazilianRegressiveTaxing.OrderBy(x => x.MaxDays)
+				.FirstOrDefault(x => days <= x.MaxDays)?.Rate;
 
-			return 0;
+			if (rate != null)
+				return rate.Value;
+
+			throw new InvalidOperationException("No applicable tax rate was found.");
 		}
 	}
 }
+ 

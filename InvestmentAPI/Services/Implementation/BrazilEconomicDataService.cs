@@ -13,7 +13,7 @@ namespace InvestmentAPI.Services.Implementation
 		#endregion
 
 		#region Properties
-		private string GetQueryDate => DateTime.Now.AddDays(-1).ToString("dd/MM/yyyy");
+		private static string GetQueryDate => DateTime.Now.AddDays(-1).ToString("dd/MM/yyyy");
 		#endregion
 
 		public async Task<string> GetInterest()
@@ -24,7 +24,6 @@ namespace InvestmentAPI.Services.Implementation
 
 			var json = JsonDocument.Parse(result);
 			string name = "valor";
-
 
 			return GetJsonRootStringValue(name, json);
 		}

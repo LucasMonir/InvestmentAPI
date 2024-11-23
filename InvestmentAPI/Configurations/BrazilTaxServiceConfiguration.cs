@@ -4,6 +4,6 @@ namespace InvestmentAPI.Configurations
 {
 	public class BrazilTaxServiceConfiguration
 	{
-		public required List<BrazilTaxModel> BrazilTaxes { get; set; }
+		public required List<BrazilTaxModel> BrazilianRegressiveTaxing { get; set; } = new();
 	}
 }

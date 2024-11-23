@@ -1,5 +1,6 @@
 
 using InvestmentAPI.Configurations;
+using InvestmentAPI.Services;
 using InvestmentAPI.Services.Implementation;
 using InvestmentAPI.Services.Interface;
 
@@ -20,13 +21,16 @@ namespace ApiParaMSAL
 
 			// Economic Data Service configuration
 			builder.Services.Configure<EconomicDataServiceConfiguration>(
-				builder.Configuration.GetSection("EconomicDataConfiguration"));
+				builder.Configuration.GetSection("EconomicDataConfiguration")
+			);
 			builder.Services.AddHttpClient<BrazilEconomicDataService>();
 			builder.Services.AddScoped<IEconomicDataService, BrazilEconomicDataService>();
 
 			// Tax Service Configuration 
 			builder.Services.Configure<BrazilTaxServiceConfiguration>(
-				builder.Configuration.GetSection("BrazilianRegressiveTaxing"));
+				builder.Configuration.GetSection("BrazilianRegressiveTaxing")
+			);
+			builder.Services.AddSingleton<ITaxService, BrazilTaxService>();
 
 			var app = builder.Build();
 
