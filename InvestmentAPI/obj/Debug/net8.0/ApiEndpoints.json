@@ -28,6 +28,23 @@
     "EndpointName": "GetTaxByDuration"
   },
   {
+    "ContainingType": "ApiParaMSAL.Controllers.InvestmentController",
+    "Method": "FixedRateInvestment",
+    "RelativePath": "Investment/FixedRateInvestment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "InvestmentAPI.Models.BrazilInvestmentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "FixedRateInvestment"
+  },
+  {
     "ContainingType": "ApiParaMSAL.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

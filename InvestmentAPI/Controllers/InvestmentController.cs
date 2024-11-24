@@ -1,5 +1,7 @@
-﻿using InvestmentAPI.Services.Interface;
+﻿using InvestmentAPI.Models;
+using InvestmentAPI.Services.Interface;
 using Microsoft.AspNetCore.Mvc;
+using System.Reflection.Metadata.Ecma335;
 
 namespace ApiParaMSAL.Controllers
 {
@@ -20,8 +22,21 @@ namespace ApiParaMSAL.Controllers
 		[HttpPost(Name = "GetTaxByDuration")]
 		public IActionResult GetTaxByDuration(int days)
 		{
-			var tax = _taxService.CalculateTax(days);
-			return Ok(tax);
+			return GetTax(days);
+		}
+
+		[HttpPost("FixedRateInvestment", Name = "FixedRateInvestment")]
+		public IActionResult FixedRateInvestment([FromBody] BrazilInvestmentRequest request)
+		{
+			var tax = _taxService.CalculateTax(request.InvestedDays);
+			var monthlyRate = request.Rate / 1200;
+			var months = request.InvestedDays / 30;
+
+			var total = (request.Value * Math.Pow(1 + monthlyRate, months)) - request.Value;
+
+			// Add IOF discount
+
+			return Ok(total - (total * (tax / 100)));
 		}
 		#endregion
 
@@ -30,6 +45,12 @@ namespace ApiParaMSAL.Controllers
 		{
 			var interest = await _economicDataService.GetInterest();
 			return Ok(interest);
+		}
+
+		private IActionResult GetTax(int days)
+		{
+			var tax = _taxService.CalculateTax(days);
+			return Ok(tax);
 		}
 		#endregion
 	}

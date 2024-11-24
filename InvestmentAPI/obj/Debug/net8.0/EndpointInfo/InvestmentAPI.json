@@ -39,6 +39,38 @@
         }
       }
     },
+    "/Investment/FixedRateInvestment": {
+      "post": {
+        "tags": [
+          "Investment"
+        ],
+        "operationId": "FixedRateInvestment",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BrazilInvestmentRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BrazilInvestmentRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/BrazilInvestmentRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -81,6 +113,27 @@
   },
   "components": {
     "schemas": {
+      "BrazilInvestmentRequest": {
+        "type": "object",
+        "properties": {
+          "investedDays": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "value": {
+            "type": "number",
+            "format": "float"
+          },
+          "rate": {
+            "type": "number",
+            "format": "float"
+          },
+          "type": {
+            "$ref": "#/components/schemas/InvestmentType"
+          }
+        },
+        "additionalProperties": false
+      },
       "DateOnly": {
         "type": "object",
         "properties": {
@@ -121,6 +174,15 @@
           4,
           5,
           6
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "InvestmentType": {
+        "enum": [
+          0,
+          1,
+          2
         ],
         "type": "integer",
         "format": "int32"
